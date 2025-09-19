@@ -1,11 +1,10 @@
 project "App"
    kind "ConsoleApp"
-   language "C++"
-   cppdialect "C++20"
+   language "C#"
    targetdir "Binaries/%{cfg.buildcfg}"
    staticruntime "off"
 
-   files { "Source/**.h", "Source/**.cpp" }
+   files { "Source/**.h", "Source/**.cpp", "Source/**.cs" }
 
    includedirs
    {

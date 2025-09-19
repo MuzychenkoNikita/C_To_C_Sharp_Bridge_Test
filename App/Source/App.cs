@@ -1,6 +1,6 @@
 #include "Core/Core.h"
 
-int main()
+private void main()
 {
 	Core::PrintHelloWorld();
 }
